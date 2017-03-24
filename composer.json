@@ -1,0 +1,22 @@
+{
+    "name": "jcodee/pluto-php",
+    "description": "Pluto php is micro framework based on a MVC and multi layer pattern.",
+    "type": "project",
+    "require": {
+        "php": ">= 5.6.4",
+        "illuminate/database": "5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Efren Carrillo",
+            "email": "edarcarto@gmail.com",
+            "role":"Developer"
+        }
+    ],
+    "autoload":{
+        "classmap":[
+            "app/models"
+        ]
+    }
+}
